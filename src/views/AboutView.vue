@@ -1,15 +1,16 @@
 <template>
-  <div class="about">
-  <h1> This About Page </h1>
-     </div>
+<div>
+<h2 class="mo">About Page</h2>
+</div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
+
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,600,700,900');
+
+
+
+
 </style>

@@ -3,10 +3,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 
-import  Surya from './components/Surya.vue'
 
+import Surya2 from './components/Surya2.vue'
 
-
+import Header from './components/Header.vue'
 
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -25,15 +25,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
   
   
 
-  <header>
-    
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <Header>
    
-      
-    </div>
-  </header>
+
+  </Header>
 
   <RouterView />
 </template>
