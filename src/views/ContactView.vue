@@ -176,7 +176,8 @@ textarea {
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: yellow;
+  font-weight: 900;
 }
 
 .place {
@@ -192,9 +193,10 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: yellow;
   text-decoration: none;
   transition-duration: 0.2s;
+  font-weight: 900;
 }
 
 .contact-text a:hover {
@@ -261,7 +263,7 @@ textarea {
 
 .copyright {
   font: 200 14px 'Oswald', sans-serif;
-  color: #555;
+  color: mediumblue;
   letter-spacing: 1px;
   text-align: center;
 }

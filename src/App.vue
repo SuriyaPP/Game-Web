@@ -4,10 +4,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 
-import Surya2 from './components/Surya2.vue'
+
 
 import Header from './components/Header.vue'
 
+
+import Surya2 from './components/Surya2.vue'
+
+
+
+import Footer from './components/Footer.vue'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
@@ -29,8 +35,17 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
    
 
   </Header>
+  
+<Surya2 />
 
   <RouterView />
+  
+  
+  <Footer>
+
+</Footer>
+
+  
 </template>
 
 <style scoped>

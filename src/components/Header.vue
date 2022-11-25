@@ -5,14 +5,18 @@
 <nav>
   <h1>Pubg | <sup>START</sup></h1>
   <ul class="navigation">
-    <li><a class="nav-link" href="home">Home</a></li>
+     
+	   <li><a class="nav-link" href="#">Home</a></li>
     <li><a class="router-link" href="about">About</a></li>
     <li><a class="router-link" href="services">Services</a></li>
 	<li><a class="router-link"  href="login">Login</a></li>
     <li><a class="router-link" href="contact">Contact</a></li>
+	 <i class="fa fa-bars"></i>
+	  <button class="burger-menu" id="burger-menu">&#9776;</button>
+	 
+	
   </ul>
-  
-  <button class="burger-menu" id="burger-menu">&#9776;</button>
+    
   
 </nav>
 
@@ -20,6 +24,21 @@
 </header>
 </div>
 </template>
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+</script>
 
 <style>
 

@@ -120,7 +120,7 @@
 }
 
 *,
-*::before,
+
 *::after {
   box-sizing: border-box;
 }
@@ -227,6 +227,7 @@ button {
 
 .text-center {
   text-align: center;
+  color:seashell;
 }
 
 /* form */

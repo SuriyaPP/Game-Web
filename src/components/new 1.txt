@@ -25,3 +25,21 @@
 					   
 					   
 					              alt="cloud-services"
+								  
+								  
+								  
+								   <button class="burger-menu" id="burger-menu">&#9776;</button>
+								   
+								   
+								   
+								      <li><a class="nav-link" href="home">Home</a></li>
+    <li><a class="router-link" href="about">About</a></li>
+    <li><a class="router-link" href="services">Services</a></li>
+	<li><a class="router-link"  href="login">Login</a></li>
+    <li><a class="router-link" href="contact">Contact</a></li>
+  </ul>
+  
+  
+  
+ @import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,600,700,900');
