@@ -1,11 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
-
-
-
-
-
 import Header from './components/Header.vue'
 
 
@@ -31,19 +25,20 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
   
   
 
-  <Header>
+  <Header/>
+  
+  
    
 
-  </Header>
+ 
   
-<Surya2 />
+
 
   <RouterView />
   
   
-  <Footer>
+  <Footer/>
 
-</Footer>
 
   
 </template>
