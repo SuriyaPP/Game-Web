@@ -15,9 +15,9 @@
     <div class="contact" id="contact">
       <h2>Contact-us</h2>
       <ul>
-        <li><a href="https://www.facebook.com/">Facebook</a></li>
-        <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
-        <li><a href="https://www.google.com/gmail/about/">G-mail</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/accounts/login/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.google.com/gmail/about/" target="_blank">G-mail</a></li>
         <li><a href="#">Linkedin</a></li>
       </ul>
     </div>
