@@ -3,9 +3,12 @@
 <header>
 
 <nav>
-  <h1>Pubg | <sup>START</sup></h1>
-  <ul class="navigation">
-     
+  
+  
+  
+                  <h1>Pubg | <sup>START</sup></h1>
+              
+	             <ul class="navigation">
 	   <li><a class="nav-link" href="/">Home</a></li>
     <li><a class="router-link" href="/about">About</a></li>
     <li><a class="router-link" href="/services">Services</a></li>
@@ -13,9 +16,21 @@
     <li><a class="router-link" href="/contact">Contact</a></li>
 	 <i class="fa fa-bars"></i>
 	  <button class="burger-menu" id="burger-menu">&#9776;</button>
-	 
+	
 	
   </ul>
+	  
+	  
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
     
   
 </nav>

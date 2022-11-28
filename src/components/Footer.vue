@@ -8,7 +8,7 @@
       <ul>
         <li><a href="#">Our Products</a></li>
         <li><a href="#">Discount Offers</a></li>
-        <li><a href="https://www.shadowsedge.com/">Gaming Tools</a></li>
+        <li><a href="https://www.shadowsedge.com/" target="_blank">Gaming Tools</a></li>
       </ul>
     </div>
     <h1>Pubg | <sup>over</sup></h1>
