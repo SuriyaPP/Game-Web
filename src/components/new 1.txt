@@ -43,3 +43,24 @@
   
  @import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Cairo:300,600,700,900');
+
+
+
+
+
+
+
+
+<figure>
+	<img src="https://www.hdwallpaper.nu/wp-content/uploads/2018/02/call_of_duty_infinite_warfare-8-660x330.png">
+	<figcaption> CALL OF DUTY </figcaption>
+	</figure>
+
+
+
+
+<div>
+	<img src="https://img2.wallspic.com/crops/7/0/8/4/6/164807/164807-fortnite-helmet-cloud-gesture-marines-3840x2160.jpg">
+	<figcaption> PUBD GAMING </figcaption>
+	</div>
+     </div>

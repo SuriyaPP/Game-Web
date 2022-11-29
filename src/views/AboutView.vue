@@ -1,24 +1,20 @@
 <template>
 <div>
+
 <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
-
+<body>
 	<div class="slider">
+	
+	
 	<div>
-	<img src="https://img2.wallspic.com/crops/7/0/8/4/6/164807/164807-fortnite-helmet-cloud-gesture-marines-3840x2160.jpg">
-	<figcaption> PUBD GAMING </figcaption>
+	
+	<iframe   src="https://www.youtube.com/embed/qBhf8S9jpxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
 	</div>
-     </div>
-	<figure>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0vwgDHxeIJfrfNA8GsxXTq9RfSBvYBYCTmqYRjYadaQ6WLZ4NRwvc1dp4ABn9ZLBr_s&usqp=CAU">
-	<figcaption> RESIDENT EVIL </figcaption>
-	</figure>
+	
+</div>
 
-	<figure>
-	<img src="https://www.hdwallpaper.nu/wp-content/uploads/2018/02/call_of_duty_infinite_warfare-8-660x330.png">
-	<figcaption> CALL OF DUTY </figcaption>
-	</figure>
-
-
+</body>
 </div>
 </template>
 
@@ -38,6 +34,16 @@
 img {
     width: -webkit-fill-available;
 }
+
+
+iframe{
+
+width:1577px;
+height:330px;
+}
+
+
+
 figcaption{
  color: white;
     text-align: -webkit-center;
