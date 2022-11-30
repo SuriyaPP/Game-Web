@@ -78,6 +78,12 @@ footer{
 }
 
 
+@media screen and (max-width: 440px){
+
+  .first-part{
+    flex-direction: column;
+  }
+}
 
 
 

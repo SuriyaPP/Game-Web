@@ -43,7 +43,7 @@
           
           <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(607) 2711-2612</a></span></i></li>
           
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">DuraiSuriya9310@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">Suriya@gmail.com</a></span></i></li>
           
         </ul>
 
@@ -263,7 +263,7 @@ textarea {
 
 .copyright {
   font: 200 14px 'Oswald', sans-serif;
-  color: mediumblue;
+  color: deeppink;
   letter-spacing: 1px;
   text-align: center;
 }

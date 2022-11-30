@@ -64,3 +64,62 @@
 	<figcaption> PUBD GAMING </figcaption>
 	</div>
      </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 @media screen and (max-width: 720px){
+
+  nav{
+    padding: 1.5rem 1rem;
+  }
+  nav ul{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+  nav ul li{
+    margin: 8px;
+  }
+  nav ul li a{
+    color: aqua;
+  }
+  .burger-menu{
+  font-size: 4rem;
+    display: block;
+  }
+/*   for showing our menu  we toggle this class to nav*/
+  nav ul.show{
+    transform: translateX(0);
+  }
+  
+/*  hero section heading  */
+  .hero-section h2{
+    font-size: 2rem;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 440px){
+/*   footer */
+  .first-part{
+    flex-direction: column;
+  }
+}

@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 
 
-import Surya2 from './components/Surya2.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 
 

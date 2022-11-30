@@ -3,16 +3,35 @@
 <header>
 
 <nav>
-  <h1>Pubg | <sup>START</sup></h1>
-  <ul class="navigation">
-    <li><a class="nav-link" href="#home">Home</a></li>
-    <li><a class="router-link" href="about">About</a></li>
-    <li><a class="router-link" href="services">Services</a></li>
-	<li><a class="router-link"  href="login">Login</a></li>
-    <li><a class="router-link" href="contact">Contact</a></li>
-  </ul>
   
-  <button class="burger-menu" id="burger-menu">&#9776;</button>
+  
+  
+                  <h1>Pubg | <sup>START</sup></h1>
+              
+	             <ul class="navigation">
+	   <li><a class="nav-link" href="/">Home</a></li>
+    <li><a class="router-link" href="/about">About</a></li>
+    <li><a class="router-link" href="/services">Services</a></li>
+	<li><a class="router-link"  href="/login">Login</a></li>
+    <li><a class="router-link" href="/contact">Contact</a></li>
+	 <i class="fa fa-bars"></i>
+	  <button class="burger-menu" id="burger-menu">&#9776;</button>
+	
+	
+  </ul>
+	  
+	  
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    
   
 </nav>
 
@@ -21,8 +40,11 @@
 </div>
 </template>
 
-<style>
 
+<script>
+</script>
+
+<style>
 nav{
   position: sticky;
   top: 0;
@@ -50,7 +72,6 @@ nav a:hover{
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
 }
-
 nav ul{
   display: flex;
   gap: 1.9rem;
@@ -58,7 +79,6 @@ nav ul{
 nav ul li{
   font-weight: var(--bold-font);
 }
-
 .burger-menu{
   color: var(--bg-color);
   background: transparent;
@@ -67,9 +87,4 @@ nav ul li{
   cursor: pointer;
   display: none;
 }
-
-
-
-
-
 </style>
