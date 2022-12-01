@@ -1,137 +1,156 @@
 <template>
-<div>
-<header>
-
-<nav>
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      PUBG
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
   
-  
-  
-                  <h1>Pubg | <sup>START</sup></h1>
-              
-	             <ul class="navigation">
-	   <li><a class="nav-link" href="/">Home</a></li>
-    <li><a class="router-link" href="/about">About</a></li>
-    <li><a class="router-link" href="/services">Services</a></li>
-	<li><a class="router-link"  href="/login">Login</a></li>
-    <li><a class="router-link" href="/contact">Contact</a></li>
-	 
-	 <i class="fa fa-bars"></i>
-	  <button class="burger-menu" id="burger-menu">&#9776;</button>
-	
-	
-  </ul>
-	  
-	  
-	  
-	
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+  <div class="nav-links">
+     
+	 <a class="nav-link" href="/">Home</a>
+	 <a class="router-link" href="/about">About</a>
+	 <a class="router-link" href="/services">Services</a>
+	<a class="router-link"  href="/login">Login</a>
+    <a class="router-link" href="/contact">Contact</a>
     
-  
-</nav>
+  </div>
 
 
-</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 </template>
 
-
-<script>
-</script>
-
 <style>
-nav{
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--primary-color); 
-  padding: 1.5rem 3.5rem;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  font-size: medium;
-}
-nav h1{
-  color: var(--bg-color);
-}
-nav h1 sup{
-  color: var(--secondary-color);
-}
-nav a{
-  color: var(--bg-color);
-  transition: var(--transition);
-}
-nav a:hover{
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
-}
-nav ul{
-  display: flex;
-  gap: 1.9rem;
-}
-nav ul li{
-  font-weight: var(--bold-font);
-}
 
 
-.burger-menu{
-  color: var(--bg-color);
-  background: transparent;
-  border: 0;
-  font-size: 2rem;
-  cursor: pointer;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #250c77;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
   display: none;
 }
 
+.nav > .nav-links {
+  display: inline;
+  margin: 0% 0% 0% 60%;
+  font-size: 18px;
+}
 
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
 
-@media screen and (max-width: 720px){
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
-  nav{
-    padding: 1.5rem 1rem;
-	
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
-  nav ul{
-    position: fixed;
-    background-color: rgba(0,0,0,0.5);
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 41%;
-    text-align: center;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
   }
-  nav ul li{
-    margin: 8px;
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
   }
-  nav ul li a{
-    color: aqua;
-  }
-  
-  .burger-menu{
-  font-size: 4rem;
+  .nav > .nav-btn > label > span {
     display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
   }
-
-  nav ul.show{
-    transform: translateX(0);
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
   }
-
-
-
-
-  .hero-section h2{
-    font-size: 2rem;
-    border-bottom: none;
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
   }
 }
 

@@ -14,6 +14,7 @@
     <li><a class="router-link" href="/services">Services</a></li>
 	<li><a class="router-link"  href="/login">Login</a></li>
     <li><a class="router-link" href="/contact">Contact</a></li>
+	 
 	 <i class="fa fa-bars"></i>
 	  <button class="burger-menu" id="burger-menu">&#9776;</button>
 	
@@ -45,6 +46,13 @@
 </script>
 
 <style>
+
+
+
+
+
+
+
 nav{
   position: sticky;
   top: 0;
@@ -79,6 +87,8 @@ nav ul{
 nav ul li{
   font-weight: var(--bold-font);
 }
+
+
 .burger-menu{
   color: var(--bg-color);
   background: transparent;
@@ -87,4 +97,49 @@ nav ul li{
   cursor: pointer;
   display: none;
 }
+
+
+
+@media screen and (max-width: 720px){
+
+  nav{
+    padding: 1.5rem 1rem;
+	
+  }
+  nav ul{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 41%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+  nav ul li{
+    margin: 8px;
+  }
+  nav ul li a{
+    color: aqua;
+  }
+  
+  .burger-menu{
+  font-size: 4rem;
+    display: block;
+  }
+
+  nav ul.show{
+    transform: translateX(0);
+  }
+
+
+
+  .hero-section h2{
+    font-size: 2rem;
+    border-bottom: none;
+  }
+}
+
+
 </style>
